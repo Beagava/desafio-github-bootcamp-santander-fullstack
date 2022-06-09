@@ -1,0 +1,7 @@
+blobls = objeto com metadados do git com tamanho...
+'blob tamanho\0conteudo'
+
+trees = armazenam blobs, ela gaurda tb o nome do arquivo, ela monta a estrutura do arquivo
+
+
+commits = [e o que junta tudo

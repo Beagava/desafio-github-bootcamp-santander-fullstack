@@ -1,0 +1,11 @@
+criação de pasta - mkdir + nome de pasta
+listar - dir
+limpar tela -cls
+echo - 
+del - deleta arquivo
+rmdir + nome da pasta + /S /Q
+repositorio - git init
+
+flag
+
+lista pasta anonima - ls -a

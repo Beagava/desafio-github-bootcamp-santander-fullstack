@@ -1,0 +1,27 @@
+código fonte: tradução ou interpretação
+
+tradução : programa fonte e depois programa objeto
+execução mais rápido, a linguagem de alto nível é compilada em baixo nivel
+
+interpretação - programa fonte direto
+maior flexibilidade, são mais fácil de progamar, são mais lentas.
+
+como ocorre a análise: análise léxica, análise sintática e análise semantica
+
+léxica - particionar os tokens e agrupá-los, depois eliminar elementos que não servem.
+
+sintática - forma definida que gera uma estrutura
+
+semântica - signnificado, lógica do programa. 
+
+paradigma estrturado - sequencia, decisão, iteração
+( exemplo de linguagem c)
+*iteração está relacionada a funções, laços e condições
+problema específico direto
+
+orientada a objeto - análogo ao mundo real
+função associada à classe - atributo, método e estado
+reuso de código
+
+
+

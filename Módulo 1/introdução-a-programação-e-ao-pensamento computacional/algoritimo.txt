@@ -1,0 +1,23 @@
+Variável: uma estrtutura mutável, ela nãp saber o valor mas save o tipo, por exemplo:
+
+x+b= c - eu sei a estrtura independente do valor
+ação - modificação de estado
+
+controle - vigiar
+
+Constante: invariável, por xemplo: valor de pi
+
+Instruções pirmitivas: operadores com constante e variável.
+por exemplo: area= pi * raio
+
+Estrutura condicional: caso seja satisfeita ela executa uma operação, caso contrário é uma exceção.
+
+Estrutura de repetição: usar uma estrutura que se repete até um objetivo.
+ajuda a deixar o codigo mais limpo
+
+Vetor: sequencia de tipos de dados, uma variável que tem tamanho pré definindo.
+Matriz: uma tabela organizada em colunas e linhas: coleção de variáveis ou vetores que necessitam de indices que definem o local no tabela. 
+
+Função: blocos de instrução que realizam tarefas especificas
+
+Instruções de entrada e saída: inserção de dados e impressão dos resultados processados.
