@@ -1,0 +1,14 @@
+tag de abertura
+qual tipo de elemento
+atributo
+conteúdo
+tag de fechamento
+
+<html>
+ <head>
+  <meta>
+  <title></title>
+ </head>
+ <body>
+ </body>
+</html>
