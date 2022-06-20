@@ -1,0 +1,11 @@
+download:
+copiar o https
+abre o git bash no local 
+git clone + colar o https
+
+
+upar:
+git status
+git add.
+git commit -m "mensagem"
+git push origin main

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+       <div class="item">Sophia recolhia as louças, e ajudava</div>
+       <div class="item">Sophia recolhia as louça</div>
+       <div class="item">Sophia recolhia as louças, e a</div>
+       <div class="item">Sophia lavá-las. O lugar tornou-se popular entre os soldados americanos das proximidades</div>
+       <div class="item">Sophia  louças, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+       <div class="item">Sophia recolhia as louças, e ajudava</div>
+       <div class="item">Sophia recolhia as louça</div>
+       <div class="item">Sophia recolhia as louças, e a</div>
+       <div class="item">Sophia lavá-las. O lugar tornou-se popular entre os soldados americanos das proximidades</div>
+       <div class="item">Sophia  louças, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+    </div>
+    <p>flex start</p>
+    <div class="container flex-start">
+       <div class="item">Sophia recolhia as louças, e ajudava</div>
+       <div class="item">Sophia recolhia as louça</div>
+       <div class="item">Sophia recolhia as louças, e a</div>
+       <div class="item">Sophia lavá-las. se popular entre os soldados americanos das proximidades</div>
+       <div class="item">Sophia  louças, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+    </div>
+    <p>flex end</p>
+    <div class="container flex-end">
+       <div class="item">Sophia recolhia as louças, e ajudava</div>
+       <div class="item">Sophia recolhia as louça</div>
+       <div class="item">Sophia recolhia as louças, e a</div>
+       <div class="item">Sophia lavá-las. se popular entre os soldados americanos das proximidades</div>
+       <div class="item">Sophia  louças, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+    </div>
+    <p>space around</p>
+    <div class="container space-around">
+       <div class="item">Sophia recolhia as louças, e ajudava</div>
+       <div class="item">Sophia recolhia as louça</div>
+       <div class="item">Sophia recolhia as louças, e a</div>
+       <div class="item">Sophia lavá-las. se popular entre os soldados americanos das proximidades</div>
+       <div class="item">Sophia  louças, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+    </div>
+    <p>space between</p>
+    <div class="container space-between">
+       <div class="item">Sophia recolhia as louças, e ajudava</div>
+       <div class="item">Sophia recolhia as louça</div>
+       <div class="item">Sophia recolhia as louças, e a</div>
+       <div class="item">Sophia lavá-las. se popular entre os soldados americanos das proximidades</div>
+       <div class="item">Sophia  louças, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+       <div class="item">Sophis, e ajudava</div>
+    </div>
+</body>
+</html>
